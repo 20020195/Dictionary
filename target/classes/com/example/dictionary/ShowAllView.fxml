@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="686.0" prefWidth="1052.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.ShowAllController">
+    <children>
+        <TableView fx:id="showAllTable" layoutX="20.0" layoutY="123.0" prefHeight="441.0" prefWidth="1023.0">
+            <columns>
+                <TableColumn fx:id="engColumn" prefWidth="179.0" text="Tiếng Anh" />
+                <TableColumn fx:id="spellColoumn" minWidth="0.0" prefWidth="188.0" text="Phiên âm" />
+                <TableColumn fx:id="classColumn" prefWidth="190.0" text="Loại từ" />
+                <TableColumn fx:id="vnColoumn" prefWidth="465.0" text="Tiếng Việt" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" layoutX="302.0" layoutY="14.0" prefHeight="47.0" prefWidth="460.0" style="-fx-background-color: lightyellow; -fx-background-radius: 20px;" text="Danh sách toàn bộ các từ">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

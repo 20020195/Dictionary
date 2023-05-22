@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="686.0" prefWidth="1052.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.HistoryController">
+    <children>
+        <TableView fx:id="histable" layoutX="20.0" layoutY="123.0" prefHeight="441.0" prefWidth="1023.0">
+            <columns>
+                <TableColumn fx:id="engColumn" prefWidth="393.0" text="Tiếng Anh" />
+                <TableColumn fx:id="vnColoumn" minWidth="0.0" prefWidth="624.0" text="Tiếng Việt" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="14.0" prefHeight="47.0" prefWidth="225.0" style="-fx-background-color: lightyellow; -fx-background-radius: 20px;" text="Lịch sử tra từ">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

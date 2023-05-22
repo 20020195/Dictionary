@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="1052.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.AddFixController">
+    <children>
+        <Label layoutX="142.0" layoutY="39.0" prefHeight="21.0" prefWidth="115.0" text="Tiếng Anh">
+            <font>
+                <Font size="25.0" />
+            </font></Label>
+        <Label layoutX="661.0" layoutY="39.0" prefHeight="50.0" prefWidth="115.0" text="Tiếng Việt">
+            <font>
+                <Font size="25.0" />
+            </font></Label>
+        <TextField fx:id="id_add" layoutX="32.0" layoutY="107.0" prefHeight="269.0" prefWidth="353.0">
+            <font>
+                <Font size="24.0" />
+            </font></TextField>
+        <TextField fx:id="id_addTV" layoutX="463.0" layoutY="107.0" prefHeight="269.0" prefWidth="536.0">
+            <font>
+                <Font size="24.0" />
+            </font></TextField>
+        <Button layoutX="82.0" layoutY="476.0" mnemonicParsing="false" onAction="#addWord" prefHeight="51.0" prefWidth="160.0" style="-fx-background-color: lightblue; -fx-background-radius: 20px;" text="Thêm">
+            <font>
+                <Font size="24.0" />
+            </font></Button>
+        <Button layoutX="812.0" layoutY="476.0" mnemonicParsing="false" onAction="#goBack" prefHeight="51.0" prefWidth="154.0" style="-fx-background-color: lightblue; -fx-background-radius: 20px;" text="Quay lại">
+            <font>
+                <Font size="24.0" />
+            </font></Button>
+        <Button layoutX="440.0" layoutY="476.0" mnemonicParsing="false" onAction="#fix" prefHeight="51.0" prefWidth="160.0" style="-fx-background-color: lightblue; -fx-background-radius: 20px;" text="Sửa">
+            <font>
+                <Font size="24.0" />
+            </font></Button>
+    </children>
+</AnchorPane>
